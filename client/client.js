@@ -15,8 +15,8 @@ app.controller('MainController', ['$scope', '$http', function($scope, $http) {
 
     //var randomAdjective = [];
     //var randomNoun = [];
-    var randomCombo = {};
-    var $scope.handles = [];
+    //var randomCombo = {};
+    $scope.handles = [];
 
     $scope.createHandle = function() {
     //var getAdjectives = function() {

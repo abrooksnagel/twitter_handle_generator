@@ -9,9 +9,9 @@
 <body ng-controller="MainController">
     <h1>Twitter Handle Generator</h1>
     <button ng-click="createHandle()">Create</button>
-    <ul>
 
-        <li ng-repeat="handle in handles">{{handle}}</li>
-        </ul>
+
+        <p ng-repeat="handle in handles">@{{handle}}</p>
+
 </body>
 </html>
