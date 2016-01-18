@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Handle Generator</title>
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="assets/scripts/client.min.js"></script>
+</head>
+<body ng-controller="MainController">
+    <h1>Twitter Handle Generator</h1>
+    <button ng-click="createHandle()">Create</button>
+    <ul>
+
+        <li ng-repeat="handle in handles">{{handle}}</li>
+        </ul>
+</body>
+</html>
